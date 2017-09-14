@@ -34,9 +34,13 @@ $homepage-description-line-height: $homepage-description-font-size * 1.5;
 }
 
 .homepage__title {
-  font-size: $homepage-title-font-size;
-  line-height: $homepage-title-line-height;
+  font-size: $homepage-title-font-size * 0.75;
+  line-height: $homepage-title-line-height  * 0.75;
   max-width: 1024px;
+
+  p {
+    display: inline;
+  }
 }
 
 .homepage__gold {
@@ -52,4 +56,15 @@ $homepage-description-line-height: $homepage-description-font-size * 1.5;
   max-width: 768px;
   opacity: 0.8;
   padding-top: 2.5%;
+}
+
+@media #{$breakpoints-large} {
+  .homepage__title {
+    font-size: $homepage-title-font-size;
+    line-height: $homepage-title-line-height;
+
+    p {
+      display: block;
+    }
+  }
 }
