@@ -2,6 +2,7 @@
 @import '../variables/resume';
 @import '../variables/typography';
 @import '../variables/colors';
+@import '../variables/transitions';
 
 $homepage-content-padding: 0 $grid-padding;
 $homepage-title-font-size: 2.4rem;
@@ -26,6 +27,8 @@ $homepage-description-line-height: $homepage-description-font-size * 1.5;
 }
 
 .homepage__content {
+  @extend .flash;
+
   padding: $homepage-content-padding;
   width: 90%;
 }
