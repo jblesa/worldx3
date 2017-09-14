@@ -2,6 +2,7 @@
 @import '../variables/resume';
 @import '../variables/typography';
 @import '../variables/colors';
+@import '../variables/transitions';
 
 $homepage-content-padding: 0 $grid-padding;
 $homepage-title-font-size: 2.4rem;
@@ -26,14 +27,20 @@ $homepage-description-line-height: $homepage-description-font-size * 1.5;
 }
 
 .homepage__content {
+  @extend .flash;
+
   padding: $homepage-content-padding;
   width: 90%;
 }
 
 .homepage__title {
-  font-size: $homepage-title-font-size;
-  line-height: $homepage-title-line-height;
+  font-size: $homepage-title-font-size * 0.75;
+  line-height: $homepage-title-line-height  * 0.75;
   max-width: 1024px;
+
+  p {
+    display: inline;
+  }
 }
 
 .homepage__gold {
@@ -49,4 +56,15 @@ $homepage-description-line-height: $homepage-description-font-size * 1.5;
   max-width: 768px;
   opacity: 0.8;
   padding-top: 2.5%;
+}
+
+@media #{$breakpoints-large} {
+  .homepage__title {
+    font-size: $homepage-title-font-size;
+    line-height: $homepage-title-line-height;
+
+    p {
+      display: block;
+    }
+  }
 }
