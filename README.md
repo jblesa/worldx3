@@ -19,5 +19,5 @@ $ gem install jekyll bundler
 
 La estructura del template:
 
-* (Sass and jekyll by @mdo)[http://markdotto.com/2014/09/25/sass-and-jekyll].
-* (Jekyll example)[https://github.com/mdo/jekyll-example].
+* [Sass and jekyll by @mdo](http://markdotto.com/2014/09/25/sass-and-jekyll).
+* [Jekyll example](https://github.com/mdo/jekyll-example).
