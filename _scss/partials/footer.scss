@@ -1,0 +1,13 @@
+@import '../variables/grid';
+@import '../variables/resume';
+
+
+$footer-padding: 2% $grid-padding;
+
+.footer {
+  @extend .full-horizontal-fixed;
+
+  bottom: 0;
+  padding: $footer-padding;
+   z-index: 10;
+}
