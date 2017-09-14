@@ -8,6 +8,7 @@ $footer-padding: 2% $grid-padding;
   @extend .full-horizontal-fixed;
 
   bottom: 0;
+  display: none; // wait
   padding: $footer-padding;
    z-index: 10;
 }
