@@ -2,7 +2,7 @@
 
 Página personal de Alex M. Gorgal
 
-# Jekyll
+# Recursos
 
 Funciona gracias [Jekyll](https://jekyllrb.com/), [Github Pages](https://pages.github.com/) y [SASS](http://sass-lang.com/).
 
