@@ -7,9 +7,9 @@
 
   <title>
     {% if page.title == "Home" %}
-      {{ site.title }} &middot; {{ site.tagline }}
+      {{ site.title }} {{ site.tagline }}
     {% else %}
-      {{ page.title }} &middot; {{ site.title }}
+      {{ page.title }} {{ site.title }}
     {% endif %}
   </title>
 
@@ -25,4 +25,7 @@
 
   <!-- webfont -->
   <link href="https://fonts.googleapis.com/css?family=Karla:400,700" rel="stylesheet">
+
+  <!-- favicon -->
+  <link rel="icon" type="image/x-icon" href="{{ site.baseurl }}/assets/favicon.ico">
 </head>
