@@ -23,7 +23,7 @@ $credits-link-color: $color-gray;
 }
 
 .rrss__icon {
-  transition: $transition-fast;
+  transition: opacity .2s, transform .2s;
   display: inline-block;
   height: $rrss-icon-size;
   opacity: .4;
@@ -38,22 +38,22 @@ $credits-link-color: $color-gray;
 }
 
 .rrss__icon--twitter {
-  background: transparent url('../assets/icons/rrss/twitter.svg') center no-repeat;
+  background: transparent url('../assets/icons/rrss/twitter.svg') no-repeat;
   background-size: 75%;
 }
 
 .rrss__icon--telegram {
-  background: transparent url('../assets/icons/rrss/telegram.svg') center no-repeat;
+  background: transparent url('../assets/icons/rrss/telegram.svg') no-repeat;
   background-size: 75%;
 }
 
 .rrss__icon--dribbble {
-  background: transparent url('../assets/icons/rrss/dribbble.svg') center no-repeat;
+  background: transparent url('../assets/icons/rrss/dribbble.svg') no-repeat;
   background-size: 75%;
 }
 
 .rrss__icon--github {
-  background: transparent url('../assets/icons/rrss/github.svg') center no-repeat;
+  background: transparent url('../assets/icons/rrss/github.svg') no-repeat;
   background-size: 100%;
 }
 
