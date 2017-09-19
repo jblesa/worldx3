@@ -10,8 +10,6 @@ Funciona gracias [Jekyll](https://jekyllrb.com/), [Github Pages](https://pages.g
 
 ```
 $ gem install jekyll bundler
-$ jekyll new my-awesome-site
-$ cd my-awesome-site
 $ bundle exec jekyll serve
 ```
 
